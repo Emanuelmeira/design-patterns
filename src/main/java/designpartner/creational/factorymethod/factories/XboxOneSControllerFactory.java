@@ -6,7 +6,7 @@ import designpartner.creational.factorymethod.objects.XboxOneSController;
 public class XboxOneSControllerFactory extends ControllerFactory{
 
     //may contain specific business rules
-
+    // can be singleton class
     @Override
     public Controller factoryController() {
         return new XboxOneSController(true);

@@ -8,6 +8,7 @@ public class NoteBookConcreteBuilder implements NoteBookBuilder {
     private NoteBook noteBook;
 
     //methods can contain rules to process the information before setting the object
+    // can be singleton class
 
     public NoteBookConcreteBuilder() {
         reset();

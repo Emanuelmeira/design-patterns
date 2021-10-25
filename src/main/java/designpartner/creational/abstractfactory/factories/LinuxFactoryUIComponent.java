@@ -8,6 +8,7 @@ import designpartner.creational.abstractfactory.objects.LinuxCheckbox;
 public class LinuxFactoryUIComponent extends FactoryUIComponent{
 
     //Objects can relate to each other at creation time using composition
+    // can be singleton class
 
     @Override
     public Button createButton() {
